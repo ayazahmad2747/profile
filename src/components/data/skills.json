@@ -1,0 +1,39 @@
+
+  [
+  {
+    "id" : 1,
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
+  },
+  {
+    "id" : 2,
+    "title": "CSS",
+    "imageSrc": "skills/css.png"
+  },
+  {
+    "id" : 3,
+    "title": "JavaScript",
+    "imageSrc": "skills/javascript.png"
+  },
+  {
+    "id" : 4,
+    "title": "React",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "id" : 5,
+    "title": "Bootstrap",
+    "imageSrc": "skills/bootstrap-1.png"
+  },
+  {
+    "id" : 6,
+    "title":"MS Office",
+    "imageSrc":"skills/MSoffice-1.jpg"
+  },
+  
+  {
+    "id" : 7,
+    "title": "Figma",
+    "imageSrc": "skills/figma.png"
+  }
+]

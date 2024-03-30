@@ -1,0 +1,40 @@
+[
+  {
+    "id": 1,
+    "role": "Front end Web Developement (React js)",
+    "organisation": "Alright",
+    "startDate": "Des, 2023",
+    "endDate": "Present",
+    "location": "Rawalpindi, Pakistan",
+    "experiences": [
+      "React js (internship)",
+      "Alright Tech pvt ltd Rawalpindi"
+    ],
+    "imageSrc": "company/google.png"
+  },
+  {
+    "id": 2,
+    "role": "Front end Web Developement (React js)",
+    "organisation": "Mirosoft",
+    "startDate": "Oct, 2023",
+    "endDate": "Nev, 2023",
+    "location": "Rawalpindi, Pakistan",
+    "experiences": [
+      "React js (Remote Intern)",
+      "Alright Tech pvt ltd Rawalpindi"
+    ],
+    "imageSrc": "company/microsoft.png"
+  },
+  {
+    "id": 3,
+    "role": "Front end Web Developer  (html, css, javaScript)",
+    "startDate": "March, 2023",
+    "endDate": "Sep, 2023",
+    "location": "Rawalpindi",
+    "experiences": [
+      "Alright Tech pvt ltd",
+      "Rawalpindi"
+    ],
+    "imageSrc": "company/netflix.png"
+  }
+]
