@@ -11,7 +11,7 @@ const Projects = () => {
             <>
               <div
                 key={data.id}
-                className="my-4 col-sm-6 col-md-4 col-lg-3 mx-4"
+                className="my-4 col-sm-6 col-md-4 col-lg-3 mx-4 project_box2"
               >
                 <div
                   className="card bg-dark text-light"

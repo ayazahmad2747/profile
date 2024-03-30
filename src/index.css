@@ -203,8 +203,13 @@ a {
 }
 
 /* Contact */
-
+.contact{
+  @media (max-width : 1000px) {
+    text-align: center;
+  }
+}
 .contact-icon {
+  width: 100%;
   height: 30vh;
   display: flex;
   justify-content: center;
@@ -221,6 +226,10 @@ a {
   align-items: center;
   border-radius: 100%;
   border: 2px solid yellow;
+  @media (max-width: 500px) {
+    height: 40px;
+    width: 40px;
+  }
 }
 
 .contact-icon .items:hover {
@@ -233,11 +242,25 @@ a {
 }
 @media (max-width: 1000px) {
   .projects{
+    width: 100%;
     text-align: center;
-  }
-  .project_box{
+    display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
-  
+  .project_box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .project_box2{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
 }
