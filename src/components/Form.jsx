@@ -34,7 +34,7 @@ return {
       toast.error('please fill the form first')
     } else{
       dispatch(addData(data));
-      toast.success(`Thank you ${data.name} to contact me. We will you response on your email ${data.email} soon and your massage "${data.massage}" was successful recived.`)
+      toast.success(`Thank you ${data.name} to contact me. We will you response on your email ${data.email} soon and your massage "${data.massage}" was successful recived.`, {duration: 10000})
       setData({
         name : '',
         email : '',
