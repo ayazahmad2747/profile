@@ -27,6 +27,11 @@
   },
   {
     "id" : 6,
+    "title": "Git GitHub",
+    "imageSrc": "skills/Git.png"
+  },
+  {
+    "id" : 7,
     "title":"MS Office",
     "imageSrc":"skills/MSoffice-1.jpg"
   },
