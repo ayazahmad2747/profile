@@ -3,6 +3,7 @@ import './About.css';
 import Ayaz from './data/Images/About/Ayaz.jpg'
 import Aos from 'aos';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
+
 const About = () => {
   useEffect(()=>{
     Aos.init({duration: '2000'})
@@ -38,6 +39,7 @@ const About = () => {
       both technical and business requirements</p>
       </div>
       </div>
+      
     </div>
   )
   }

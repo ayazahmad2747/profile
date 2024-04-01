@@ -3,6 +3,9 @@ import './Form.css'
 import { addData } from './Store/StoreSlice/StoreSlice'
 import Aos from 'aos'
 import { useDispatch, useSelector } from 'react-redux'
+import toast from 'react-hot-toast'
+
+
 const Form = () => {
   const[data, setData] = useState({
     name : "",
@@ -27,7 +30,7 @@ return {
   const submitData = (e)=>{
     e.preventDefault();
     if(!data.name || !data.email|| !data.massage ){
-      alert('please enter your name and email')
+      toast.error('please fill the form first')
     } else{
       dispatch(addData(data));
       setData({

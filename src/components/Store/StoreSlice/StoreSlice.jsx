@@ -1,13 +1,20 @@
 import { createSlice, current } from "@reduxjs/toolkit";
 
-
-
-const initialState = {
-    data : [{
+const localkey = 'data';
+const getStorageData = ()=>{
+    const storedData = localStorage.getItem(localkey);
+    return storedData ? JSON.parse(storedData) : [{
         name : '',
-        email : '',
+        email: '',
         massage : ''
     }]
+}
+const storeData= (data)=>{
+    localStorage.setItem(localkey, JSON.stringify(data))
+}
+
+const initialState = {
+    data : getStorageData()
 }
 const StoreSlice = createSlice({
     name : 'store',
@@ -16,8 +23,8 @@ const StoreSlice = createSlice({
         addData : (state, action)=> {
             // console.log(action.payload);
              state.data.push(action.payload);
-            console.log(current( state))
-            
+            // console.log(current( state))
+            storeData(state.data)
         }
     }
 })

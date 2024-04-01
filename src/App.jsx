@@ -8,7 +8,7 @@ import Contact from './components/Contact'
 import Aos from "aos";
 import "aos/dist/aos.css"
 import About from "./components/About";
-import { ToastContainer } from "react-toastify";
+import { Toaster } from "react-hot-toast";
 
 const App = () => {
  useEffect(() => {
@@ -26,7 +26,7 @@ const App = () => {
         <Projects />
         <About/>
         <Contact />
-        <ToastContainer/>
+        <Toaster/>
       </div>
     </div>
   );
