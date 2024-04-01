@@ -17,6 +17,7 @@ const StoreSlice = createSlice({
             // console.log(action.payload);
              state.data.push(action.payload);
             console.log(current( state))
+            
         }
     }
 })
