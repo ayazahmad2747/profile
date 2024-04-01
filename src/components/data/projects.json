@@ -30,5 +30,13 @@
     "description": "This is a project made with complete React js.",
     "demo": "https://www.example.com",
     "source": "https://github.com/ayazahmad2747/profile"
+  },
+  {
+    "key": 5,
+    "title": "LinkedIn Bot",
+    "imageSrc": "projects/LinkedIn.png",
+    "description": "This is a project made with complete React js.",
+    "demo": "https://www.example.com",
+    "source": "https://github.com/ayazahmad2747/profile"
   }
 ]
