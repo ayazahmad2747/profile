@@ -13,7 +13,7 @@ const Form = () => {
     massage : ""
   });
 const formdata = useSelector((state)=> state.store.data);
-console.log(formdata)
+
 const dispatch = useDispatch()
 
   const handleInput = (e)=>{
@@ -34,6 +34,7 @@ return {
       toast.error('please fill the form first')
     } else{
       dispatch(addData(data));
+      toast.success(`Thank you ${data.name} to contact me. We will you response on your email ${data.email} soon and your massage "${data.massage}" was successful recived.`)
       setData({
         name : '',
         email : '',
