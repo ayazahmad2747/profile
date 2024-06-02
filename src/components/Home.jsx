@@ -24,7 +24,6 @@ const Home = () => {
       typed.destroy();
     };
   }, []);
-
   return (
     <>
       <div className="container home" id="home">
